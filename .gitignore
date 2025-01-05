@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# Dependency directories
+jspm_packages/
+.env
+
+# Build directories
+dist/
+build/
+temp/
+.tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Game assets (optional: if you don’t want large files in Git)
+*.psd
+*.xcf
+*.kra
+
+# Webpack and other bundlers
+.cache/
+*.cache
+*.map
+
+# Generated files
+*.min.js
+*.min.css
+coverage/
+*.tsbuildinfo
+
+# Other package managers
+bower_components/
+
+# Production environment
+.env.production
+
+# Local development environment
+.env.local
+
+# Test files and coverage reports
+coverage/
+.nyc_output/
+test-results/
+junit.xml
